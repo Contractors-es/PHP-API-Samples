@@ -22,7 +22,6 @@ The access token is cached locally in `token_<hash>.txt`, so repeated runs do no
 
 ## Structure
 
-- `api.php` – HTTP client with automatic login, pagination helpers, search shortcuts, and custom exceptions.
 - `test_*.php` – standalone examples for tasks, orders, meetings, invoices, webhook management, etc.
 - `webhook_endpoint.php` – minimal receiver you can host to validate webhook deliveries.
 
